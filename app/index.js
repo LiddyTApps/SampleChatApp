@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from "react";
-import { View, TouchableOpacity, BackHandler, Text, StyleSheet } from "react-native";
+import { View, Image, TouchableOpacity, BackHandler, Text, StyleSheet } from "react-native";
 import { Colors, Fonts, Sizes } from "../constants/styles";
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useFocusEffect } from "@react-navigation/native";
@@ -98,7 +98,10 @@ const WelcomeScreen = () => {
     function welcomeLogo() {
         return (
             <View style={styles.welcomeLogoWrapStyle}>
-                <MaterialCommunityIcons name="whatsapp" size={140} color={Colors.whiteColor} />
+                <Image 
+                source={require('/Users/lydiathomas/Desktop/ChatApp/assets/images/icon.png')} 
+                style={{ width: 140, height: 140 }} 
+            />
             </View>
         )
     }
@@ -106,7 +109,7 @@ const WelcomeScreen = () => {
 
 const styles = StyleSheet.create({
     animatedView: {
-        backgroundColor: "#333333",
+        backgroundColor: "#1518b3",
         position: "absolute",
         bottom: 40,
         alignSelf: 'center',
@@ -138,7 +141,7 @@ const styles = StyleSheet.create({
         ...Fonts.grayColor15Regular
     },
     welcomeLogoWrapStyle: {
-        backgroundColor: '#CC8989',
+        backgroundColor: '#1518b3',
         width: 240.0,
         height: 240.0,
         borderRadius: 120.0,
