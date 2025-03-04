@@ -104,7 +104,7 @@ export const Fonts = {
     },
 
     primaryColor26Regular: {
-        color: '#B34D4D',
+        color: '#0a0a0a',
         fontSize: 26,
         fontFamily: 'Rubik_Regular',
     },
@@ -180,7 +180,7 @@ export const Fonts = {
 export const Colors = {
     blackColor: '#000000',
     whiteColor: '#ffffff',
-    primaryColor: '#B34D4D',
+    primaryColor: '#154fb3',
     grayColor: '#9E9E9E',
     bodyBackColor: '#FAFAFA',
     yellowColor: '#FFEB3B',

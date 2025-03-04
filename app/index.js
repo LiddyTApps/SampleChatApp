@@ -37,7 +37,7 @@ const WelcomeScreen = () => {
             <View style={styles.pageStyle}>
                 <View>
                     <Text style={{ marginBottom: Sizes.fixPadding * 5.0, textAlign: 'center', ...Fonts.primaryColor26Regular }}>
-                        Welcome to ChatApp
+                        Welcome to The Keep Us Company
                     </Text>
                     {welcomeLogo()}
                 </View>
@@ -99,8 +99,8 @@ const WelcomeScreen = () => {
         return (
             <View style={styles.welcomeLogoWrapStyle}>
                 <Image 
-                source={require('/Users/lydiathomas/Desktop/ChatApp/assets/images/icon.png')} 
-                style={{ width: 140, height: 140 }} 
+                source={require('/Users/lydiathomas/Desktop/ChatApp/assets/images/Logo.png')} 
+                style={{ width: 190, height: 190 }} 
             />
             </View>
         )
@@ -109,7 +109,7 @@ const WelcomeScreen = () => {
 
 const styles = StyleSheet.create({
     animatedView: {
-        backgroundColor: "#1518b3",
+        backgroundColor: "#f216c2",
         position: "absolute",
         bottom: 40,
         alignSelf: 'center',
@@ -141,7 +141,7 @@ const styles = StyleSheet.create({
         ...Fonts.grayColor15Regular
     },
     welcomeLogoWrapStyle: {
-        backgroundColor: '#1518b3',
+        backgroundColor: '#e356c4',
         width: 240.0,
         height: 240.0,
         borderRadius: 120.0,
